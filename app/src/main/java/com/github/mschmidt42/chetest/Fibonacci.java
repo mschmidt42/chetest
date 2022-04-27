@@ -9,6 +9,6 @@ public class Fibonacci {
             value +=i;
             result = result + value + "  ";
         }
-        return result;
+        return result.trim();
     }
 }
